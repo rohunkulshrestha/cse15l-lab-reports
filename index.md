@@ -14,3 +14,5 @@ hello
 1. one
 2. two
 3. Three
+
+**Currently typing from VS Code**

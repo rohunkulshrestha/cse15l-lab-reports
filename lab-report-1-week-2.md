@@ -25,7 +25,7 @@ ssh cs15lwi22zzz@ieng6.ucsd.edu
  You may also be prompted with a message regarding security if this is the first time you are connecting. Just type "yes" to continue. If you are asked this again while connecting to the same server, there could be cause for concern. But for now there should be nothing to worry about. From there, you should be seeing a screen *similar* to the one below.
 
  ![Image](remotepic.PNG)
- ***
+ ******
 ## Step Three: Trying Some Commands ##
 Once set up in the server, try running some of these commands that provide some interesting information :
 * cd ~
@@ -37,7 +37,7 @@ Once set up in the server, try running some of these commands that provide some 
 An example of the 'ls -lat' command
 
 ![Image](comman.PNG)
-***
+******
 ## Step Four: Moving Files with SCP ##
 Now we will try sending over a copy of a file from our computer to a remote computer using the "SCP" command. This command will alwyas be ran on the client - the computer not logged into ieng6. To test this command out, begin by creating a new file on your computer called "WhereAmI.java" and past the following code into it:
 ```

@@ -111,6 +111,7 @@ When working back and forth with the server and client, you may find it time con
 
 ## VS ##
 
+
 (not optimized)
 ![Image](optimize2.PNG)
 

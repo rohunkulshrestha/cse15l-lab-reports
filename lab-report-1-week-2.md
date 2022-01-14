@@ -64,7 +64,7 @@ Once copied to the server, log into ieng6 using the steps from above and type in
 ![Image](scp.PNG)
  Now, once again, run the "Javac" and "Java" commands on the server and note the difference in the output. You have succesfully copied a file to the server, congrats!
  ***
- ## Step Five: Setting an SSH Key
+ ## Step Five: Setting an SSH Key ##
  By now we have logged into the server multiple times, and I am sure you have noticed each time we want to do so, we are asked to provide our pasword. This repetitive task can get quite frustrating. Luckily, there is a solution to this problem and it comes in the form of a simple command: SSH.
 
  As Professor Polits describes it:
@@ -101,6 +101,7 @@ When working back and forth with the server and client, you may find it time con
 (optimized)
 ![Image](optimize1.PNG)
 >## VS ##
+
 (not optimized)
 ![Image](optimize2.PNG)
 ***

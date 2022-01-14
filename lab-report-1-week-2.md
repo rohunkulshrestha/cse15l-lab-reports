@@ -43,7 +43,7 @@ An example of the 'ls -lat' command
 
 ***
 ## Step Four: Moving Files with SCP ##
-Now we will try sending over a copy of a file from our computer to a remote computer using the "SCP" command. This command will alwyas be ran on the client - the computer not logged into ieng6. To test this command out, begin by creating a new file on your computer called "WhereAmI.java" and past the following code into it:
+Now we will try sending over a copy of a file from our computer to a remote computer using the "SCP" command. This command will always run on the client - the computer not logged into ieng6. To test this command out, begin by creating a new file on your computer called "WhereAmI.java" and paste the following code into it:
 ```
 class WhereAmI {
   public static void main(String[] args) 
@@ -74,7 +74,7 @@ Now, once again, run the "Javac" and "Java" commands on the server and note the 
 ## Step Five: Setting an SSH Key ##
 By now we have logged into the server multiple times, and I am sure you have noticed each time we want to do so, we are asked to provide our pasword. This repetitive task can get quite frustrating. Luckily, there is a solution to this problem and it comes in the form of a simple command: SSH.
 
-As Professor Polits describes it:
+As Professor Politz describes it:
 >" The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password "
 
 This useful command will help us save an ample amount of time, and annoyance, in the long run.
@@ -107,12 +107,13 @@ When working back and forth with the server and client, you may find it time con
 * and more
 
 (optimized)
+
 ![Image](optimize1.PNG)
 
 ## VS ##
 
-
 (not optimized)
+
 ![Image](optimize2.PNG)
 
 ***

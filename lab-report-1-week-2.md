@@ -62,29 +62,31 @@ remember to replace "zzz" with your course-specific letters
 Once copied to the server, log into ieng6 using the steps from above and type in the "ls" command. You should see the file there in the directory similar to the picture below.
 
 ![Image](scp.PNG)
- Now, once again, run the "Javac" and "Java" commands on the server and note the difference in the output. You have succesfully copied a file to the server, congrats!
+
+Now, once again, run the "Javac" and "Java" commands on the server and note the difference in the output. You have succesfully copied a file to the server, congrats!
  ***
- ## Step Five: Setting an SSH Key ##
- By now we have logged into the server multiple times, and I am sure you have noticed each time we want to do so, we are asked to provide our pasword. This repetitive task can get quite frustrating. Luckily, there is a solution to this problem and it comes in the form of a simple command: SSH.
 
- As Professor Polits describes it:
- >" The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password "
+## Step Five: Setting an SSH Key ##
+By now we have logged into the server multiple times, and I am sure you have noticed each time we want to do so, we are asked to provide our pasword. This repetitive task can get quite frustrating. Luckily, there is a solution to this problem and it comes in the form of a simple command: SSH.
 
- This useful command will help us save an ample amount of time, and annoyance, in the long run.
+As Professor Polits describes it:
+>" The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password "
 
- To begin, go back to the terminal on your computer (the client) and run the following command:
- >ssh-keygen
+This useful command will help us save an ample amount of time, and annoyance, in the long run.
 
- when prompted with a space to save the key, enter something similar to this:
+To begin, go back to the terminal on your computer (the client) and run the following command:
+>ssh-keygen
 
- >/Users/yourname/.ssh/id_rsa
+when prompted with a space to save the key, enter something similar to this:
 
- You should be at screen *similar* to this:
- ![Image](scpArt.PNG)
+>/Users/yourname/.ssh/id_rsa
 
- Now, you have created two keys. A public key as well as a private key. Both stored in the .ssh directory of your computer.
- Now, we need to copy the **public** key to the directory on the ieng6 server directory. So once again, connect to the server and navigate to the .ssh directory by running this command:
- >mkdir .ssh
+You should be at screen *similar* to this:
+![Image](scpArt.PNG)
+
+Now, you have created two keys. A public key as well as a private key. Both stored in the .ssh directory of your computer.
+Now, we need to copy the **public** key to the directory on the ieng6 server directory. So once again, connect to the server and navigate to the .ssh directory by running this command:
+>mkdir .ssh
 
 Then, logout of the server and run the following command on your computer's terminal:
 >scp /Users/yourname/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys

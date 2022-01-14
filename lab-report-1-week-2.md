@@ -40,7 +40,7 @@ Once set up in the server, try running some of these commands that provide some 
 An example of the 'ls -lat' command
 
 ![Image](comman.PNG)
-Horizontal
+
 ***
 ## Step Four: Moving Files with SCP ##
 Now we will try sending over a copy of a file from our computer to a remote computer using the "SCP" command. This command will alwyas be ran on the client - the computer not logged into ieng6. To test this command out, begin by creating a new file on your computer called "WhereAmI.java" and past the following code into it:

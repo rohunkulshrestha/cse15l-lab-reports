@@ -110,7 +110,7 @@ One way to determine if one method is faster than another is by counting the key
 
 ### Optimized ###
 using the up arrow to re-use a command
-(keystrokes: 4)
+(keystrokes: 5)
 
 
 ### Not Optimized ###

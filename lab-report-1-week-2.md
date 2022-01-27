@@ -118,6 +118,7 @@ simply typing out each character
 (keystrokes: 27)
 
 ![Image](optimize2.PNG)
+
 (the commands the example above are reffering to)
 
 ***

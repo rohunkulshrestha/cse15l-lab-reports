@@ -99,22 +99,26 @@ Then, logout of the server and run the following command on your computer's term
 Once completed, you should now be able to run any "scp" or "ssh" commands from your computer without having to use your password!
 
 ***
-## Step Six: Optimizing Remove Running ##
+## Step Six: Optimizing Remote Running ##
 When working back and forth with the server and client, you may find it time consuming to constantly be typing commands. While, the scp command diminished some of that, there are other ways to streamline efficiency as well. 
 
 * Using the up-arrow in the terminal is one good way to quickly run a command you have already ran.
 * Conjoining multiple commands on one line seperating them with a ";". Thus, running them at the same time.
 * and more
 
-(optimized)
+One way to determine if one method is faster than another is by counting the keystrokes.
 
-![Image](optimize1.PNG)
+## Optimized ##
+using the up arrow to re-use a command
+(keystrokes: 4)
 
-## VS ##
 
-(not optimized)
+## Not Optimized ##
+simply typing out each character
+(keystrokes: 27)
 
 ![Image](optimize2.PNG)
+(the commands the example above are reffering to)
 
 ***
 Thank You!

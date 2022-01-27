@@ -108,12 +108,12 @@ When working back and forth with the server and client, you may find it time con
 
 One way to determine if one method is faster than another is by counting the keystrokes.
 
-## Optimized ##
+### Optimized ###
 using the up arrow to re-use a command
 (keystrokes: 4)
 
 
-## Not Optimized ##
+### Not Optimized ###
 simply typing out each character
 (keystrokes: 27)
 

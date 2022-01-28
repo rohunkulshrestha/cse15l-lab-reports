@@ -11,7 +11,7 @@ after seeing these symptoms when it was run for the first time:
 
 ![image](test2symptom.PNG)
 
-
+This failure-inducing input file contains two links with both brackets and parenthesis, except, after both links is additional text. This additional text causes the program to keep looking for paranthesis when there are none, which results in the symptom pitcured above. To fix this bug, I simply had to add a break in the code to occur if the value of nextOpenBracket is -1 before checking for a closed bracket.
 
 ***
 

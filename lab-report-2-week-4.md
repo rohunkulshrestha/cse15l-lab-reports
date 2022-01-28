@@ -41,5 +41,6 @@ This failure-inducing input file contains text in closed brackets and a link in 
 
 ***
 
+Thank you!
 
 

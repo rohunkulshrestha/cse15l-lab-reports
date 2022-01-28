@@ -1,4 +1,4 @@
-# Week 4 Lab Report #
+# Week 4 Lab Report
 Rohun Kulshrestha
 
 ***

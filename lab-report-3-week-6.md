@@ -13,7 +13,7 @@ From there, I simply created a new `config` file and edited it using the notepad
 
 ![Image](sshfile.PNG)
 
-By entering my name after the words "Host", I was able to set-up a nickname to be used everytime I log into the ineg6 servers rather than that lengthy course-specific one shown after "User":
+By entering my name after the words "Host", I was able to set-up a nickname to be used everytime I log into the ineg6 servers (shown on the first line of the picture below) rather than that lengthy course-specific one shown after "User":
 
 ![Image](sshConsole.PNG)
 

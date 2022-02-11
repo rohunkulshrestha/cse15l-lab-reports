@@ -1,4 +1,6 @@
-## Hello, links to the Lab Reports can be found at the bottom!
+# Hello #
+
+## Hello, links to the Lab Reports can be found at the bottom! ##
 # 
 hello
 **hello**

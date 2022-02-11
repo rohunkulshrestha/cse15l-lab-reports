@@ -15,7 +15,7 @@ hello
 
 1. one
 2. two
-3. Three
+3. three
 
 **Currently typing from VS Code**
 *example*

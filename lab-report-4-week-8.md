@@ -61,4 +61,4 @@ And this output for the one I reviewed:
 
 ***Snippet Two*** - For snippet two, dealing with something like a nested parentheses could be fixed by including an additional if-statement. By adding code that looks for two consecutive uses of an open-parentheses and then correspondingly updates the index count by skipping the second open-parentheses could lead to the omition of the nest in the output.
 
-***Snippet Three*** - 
+***Snippet Three*** - For snippet three, if there was a function that removed any line breaks similar to the string function that removes spaces, then MarkdownParse could call that function before running the test. This could remove any obstacles that the prorgram runs into while running that are not accounted for.

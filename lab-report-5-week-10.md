@@ -25,7 +25,7 @@ As of now, the program really only accounts for one closed bracket; thus, the ad
 
  ![image](bash.PNG)
 
-Now whenever I ran the `bash script.sh` command it would copy all the contents of the produced outputs into a text file named *results* along with the name of the tests. Then, I returned back to the terminal and ran
+Now whenever I ran the `bash script.sh` command it would copy all the contents of the produced outputs into a text file named *results* along with the name of the tests. Then, I returned back to the terminal and ran:
 
 > diff markdown-parse/results.txt markdown-parse-main/results.txt
 

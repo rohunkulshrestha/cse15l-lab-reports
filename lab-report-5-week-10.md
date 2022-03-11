@@ -16,16 +16,18 @@ Versus when I ran the test using the provided MarkdownParse:
 
 As you can see, the two outputs are different, but I beilieve that the output produced by the provided MarkdownParse code, `[/uri]` is the expected output. The problem in my MarkdownParse may be occuring after the program is done finding the closed bracket. If you look back at the test, there is an additional closed bracket, which may be causing the program to produce this incorrect output. 
 
-![image](codeOne.JPG)
+![image](code1.PNG)
 
 As of now, the program really only accounts for one closed bracket; thus, the additional closed bracket is causing the program to produce the output we are seeing.
 
+***
+
 ## Test Two ##
- For test two I compared the results of the provided repostiory with my repository using the `diff` command. To do this I edited the `script.sh` file in both repositories with the following updates:
+ For test two I compared the results of the provided repostiory with my repository using the `diff` command. To do this I edited the `script.sh` file in both repositories to the following:
 
  ![image](bash.PNG)
 
-Now whenever I ran the `bash script.sh` command it would copy all the contents of the produced outputs into a text file named *results* along with the name of the tests. Then, I returned back to the terminal and ran:
+Then, whenever I ran the `bash script.sh` command, it would copy all of the contents of the produced outputs into a text file named *results* along with the name of the tests. I then returned back to the terminal and ran:
 
 > diff markdown-parse/results.txt markdown-parse-main/results.txt
 
@@ -43,9 +45,9 @@ versus the one displayed from the provided repository:
 
 ![image](testOther2.PNG)
 
-Between the two outputs, `[] and [baz]`, I believe the correct output to be `[]`, the one produced by my groups repository. I believe this is the correct output because if you look back at the [test file](201.md) you can see that the file does not actually have a valid link. The potential bug is most likely occuring somewhere in this block of code: 
+Between the two outputs, `[] and [baz]`, I believe the correct/expected output is `[]`, the one produced by my group's repository. I believe this is the correct output because if you look back at the [test file](201.md) you can see that the file does not actually have a valid link. The potential bug is most likely occuring somewhere in this block of code: 
 
-![image](code2.JPG)
+![image](code2.PNG)
 
 As you can see from the above image, the code checks whether there is a space inside the link, but does not account for the fact that there could be a gap between the closed parentheses and open bracket, which would in turn regard it as an invalid link. 
 

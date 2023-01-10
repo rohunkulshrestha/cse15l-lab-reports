@@ -1,4 +1,4 @@
-# Week 10 Lab Report
+# bash and diff Commands
 Rohun Kulshrestha
 
 ***

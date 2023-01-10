@@ -1,4 +1,4 @@
-# Rohun Kulshrestha #
+# Rohun Kulshrestha
 
 ## The exploration of software development tools and techniques ##
 
